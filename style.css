@@ -60,6 +60,7 @@ body {
   color: var(--primary);
   position: relative;
 }
+
 .nav__link::after, .nav__link--active::after {
   position: absolute;
   content: "";
@@ -120,6 +121,11 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: 120px 100px 1fr 60px;
   }
+
+  .header {
+    width: 100%;
+  }
+
   .header__title {
     font-size: 2rem;
   }
